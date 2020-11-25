@@ -1,0 +1,24 @@
+{
+  "name": "lab_lenguaje_slotmachine",
+  "version": "1.0.0",
+  "description": "Ejercicio entregable módulo 2 (lenguaje). Slot Machine",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf dist && parcel ./src/index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palomalp/lab_lenguaje_slotMachine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palomalp/lab_lenguaje_slotMachine/issues"
+  },
+  "homepage": "https://github.com/palomalp/lab_lenguaje_slotMachine#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "rimraf": "^3.0.2"
+  }
+}
