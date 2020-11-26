@@ -36,7 +36,7 @@ class SlothMachine {
         var randomBoolean2 = Math.random() < 0.5; //esta comparación me devuelve o true o false.
         var randomBoolean3 = Math.random() < 0.5; //esta comparación me devuelve o true o false.
 
-        if (randomBoolean1===true && randomBoolean2===true && randomBoolean3===true) { //no sería necesario hacer la comparación con cada uno a true pero así lo entiendo mejor.
+        if (randomBoolean1===true && randomBoolean2===true && randomBoolean3===true) { //no sería necesario hacer la comparación con cada uno a true, pero así lo entiendo mejor.
            var coinsTemporal = this.coins;
             this.coins = 0;//lo hago antes del return para que se ejecute.
             return "Congratulations!!!. You won " + coinsTemporal + " coins!!"; //pongo coinsTemporal para que el valor sea el de this.coins con el acumulador y no el actualizado a cero.
